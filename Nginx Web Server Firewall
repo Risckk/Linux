@@ -1,0 +1,23 @@
+Nginx Web Server Install
+
+This explanation was made in the centos 7 operating system.
+
+1. yum -y update
+
+2. sudo yum install epel-release -y
+
+3. sudo yum install nginx -y
+
+4. sudo systemctl enable nginx
+
+5. sudo systemctl start nginx
+
+6. sudo systemctl status nginx
+
+7. Editting Nginx Conf
+
+/etc/nginx/conf.d/default.conf
+
+8. Nginx Config
+
+/etc/nginx/nginx.conf
