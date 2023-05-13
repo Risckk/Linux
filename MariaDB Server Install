@@ -1,0 +1,17 @@
+Centos 7 MariaDB Server install!
+
+
+1. sudo yum install mariadb-server -y
+
+2. sudo systemctl start mariadb
+
+3. sudo systemctl enable mariadb
+
+4. sudo mysql_secure_installation
+
+4.1. Set root password? [Y/n] y
+4.2. Remove anonymous users? [Y/n] y
+4.3. Disallow root login remotely? [Y/n] n
+4.4. Remove test database and access to it? [Y/n] y
+4.5. Reload privilege tables now? [Y/n] y
+
