@@ -11,7 +11,7 @@ Centos 7 MariaDB Server install!
 
 4.1. Set root password? [Y/n] y
 4.2. Remove anonymous users? [Y/n] y
-4.3. Disallow root login remotely? [Y/n] n
+4.3. Disallow root login remotely? [Y/n] n (If you are going to open it for remote access, choose N, otherwise you can continue as Y.)
 4.4. Remove test database and access to it? [Y/n] y
 4.5. Reload privilege tables now? [Y/n] y
 
