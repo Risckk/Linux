@@ -21,3 +21,7 @@ This explanation was made in the centos 7 operating system.
 8. Nginx Config
 
 /etc/nginx/nginx.conf
+
+9. systemctl stop firewalld
+
+10. systemctl disable firewalld
